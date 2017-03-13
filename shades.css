@@ -1,12 +1,12 @@
 body{
-    background: #232323;
-   
+    background: #232323; 
 }
 
 .square{
     width: 30%;
     background-color: pink;
     margin: 1.66%;
+    margin-top: 5%;
     padding-top: 30%;  
     float:left;
 }
@@ -16,11 +16,29 @@ body{
     width: 400px;
 }
 
-h1, h3, h4{
+h1, h3{
     color: white;
     text-align: center;   
 }
 
-span{
-    color: white;
+#stripe{
+    background: white;
+    color: black;
+    height:30px;
+    text-align: center;
+    padding-top:12px; 
 }
+
+#forReset{
+    position: relative;
+    right:100px;
+}
+
+#message{
+    margin-right: 100px;
+}
+
+.selected{
+    background: lightblue;
+}
+
